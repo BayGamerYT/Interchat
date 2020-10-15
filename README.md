@@ -1,6 +1,10 @@
 # Interchat
+
 This bot connects multiple channels from multiple servers to a kind of "Interchat", which basically if I send a message in a server I can see it from any other server where the bot is and is configured. Only json is used (to save the channel IDs) and the own functions of discord.py
+
+
 ![Preview](https://media.discordapp.net/attachments/765988053943844884/766151770941423616/unknown.png)
+
 
 # Setup
 To be able to use it you must install the requirements that are in the file `requirements.txt` with `pip install -U -r requirements.txt` (If you are in windows you need to have Pip in environment variables)
@@ -9,7 +13,7 @@ Configure the `Settings.py` file. Example:
 ```py
 # Settings for Interchat | Check README.md file for help
 
-  
+
 token =  'Your bot token here'
 prefix =  '!'
 
